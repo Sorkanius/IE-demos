@@ -2,6 +2,8 @@ import numpy as np
 import os
 import six.moves.urllib as urllib
 import sys
+sys.path.append('TensorFlow/models/research/object_detection/') # point to your tensorflow dir
+sys.path.append('TensorFlow/models/research/object_detection/core') # point to your tensorflow dir
 import tarfile
 import tensorflow as tf
 import zipfile
